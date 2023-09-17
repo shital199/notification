@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+* {
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 0px;
+  padding: 0px;
+}
+
+.text-white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.text-grayish-blue {
+  color: hsl(209deg, 70%, 74%);
+}
+
+.text-Light-grayish-blue1 {
+  color: hsl(219deg, 14%, 63%);
+}
+
+.text-Light-grayish-blue2 {
+  color: hsl(205deg, 33%, 90%);
+}
+
+.text-grayish-blue {
+  color: hsl(219deg, 89%, 11%);
+}
+
+.text-Dark-grayish-blue {
+  color: hsl(219deg, 12%, 42%);
+}
+
+.text-very-dark-blue {
+  color: hsl(226deg, 57%, 16%);
+}
+
+.text-light-gray-dark {
+  color: hsl(224deg, 21%, 14%);
+}
+
+.bg-grayish-blue {
+  background: hsl(210deg, 60%, 98%);
+}
+
+.text-grayish-dark-red {
+  color: hsl(303deg, 10%, 53%);
+}
+
+.text-dark-red {
+  color: hsl(0deg, 88%, 28%);
+}
+
+.bg-cyan {
+  background: hsl(300deg, 43%, 22%);
+}
+
+.bg-white {
+  background: hsl(0deg, 0%, 100%);
+}
+
+.bg-grayish-blue {
+  background: hsl(210deg, 60%, 98%);
+}
+
+.bg-Light-grayish-blue1 {
+  background: hsl(211deg, 68%, 94%);
+}
+
+.bg-Light-grayish-blue2 {
+  background: hsl(205deg, 33%, 90%);
+}
+
+.bg-grayish-blue {
+  background: hsl(219deg, 14%, 63%);
+}
+
+.bg-Dark-grayish-blue {
+  background: hsl(219deg, 12%, 42%);
+}
+
+.bg-very-dark-blue {
+  background: hsl(224deg, 21%, 14%);
+}
+
+.bg-light-gray-dark {
+  background: hsl(300deg, 62%, 23%);
+}
+
+.bg-light-gray {
+  background: hsl(333deg, 80%, 67%);
+}
+
+.notifications-wrapper {
+  height: 80px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.notification unread {
+  height: 80px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.notification {
+  height: 80px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 20px auto;
+  width: 780px !important;
+}
+
+.qr-object {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.private-message-text {
+  border: 1px solid hsl(211deg, 68%, 94%);
+  margin: 10px 0 0 0;
+  border-radius: 3px;
+  padding: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.mark-all-as-read-button {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  color: hsl(219deg, 12%, 42%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.mark-all-as-read-button:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+
+#number-of-unread-notifications {
+  font-size: 0.9rem;
+  background: hsl(219deg, 85%, 26%);
+  color: white;
+  border-radius: 5px;
+  padding: 2px 9px;
+  width: 30px;
+  margin: 0px;
+}
+
+.username {
+  font-weight: 800;
+  color: hsl(224deg, 21%, 14%);
+  margin: 0 3px 0 0;
+  cursor: pointer;
+  transition: 0.2s;
+}/*# sourceMappingURL=styles.css.map */
